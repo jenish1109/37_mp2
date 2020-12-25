@@ -1,0 +1,43 @@
+:root {
+    --mainWhite: #f1eeea;
+    --mainGreen: #7fb800;
+    --mainBlue: #f16507;
+    --lightBlue: #095e6973;
+    --mainBlack: #03140c;
+}
+
+.max-height {
+    min-height: 100vh;
+}
+
+body {
+    background: url("../images/image1.jpg") center/cover fixed no-repeat;
+    color: var(--mainWhite);
+}
+
+.main-container {
+    border: 0.1rem solid var(--mainWhite);
+    box-shadow: 0 0.5rem 0.5rem rgba(26, 29, 29, 0.9);
+    border-radius: 0.5rem;
+}
+
+#counter {
+    color: var(--mainGreen);
+    font-size: 10rem;
+    color: var(--mainBlack);
+}
+
+.prevBtn,
+.nextBtn {
+    box-shadow: 0 0.2rem 0.5rem rgba(127, 224, 140, 0.9);
+    background: var(--mainBlue);
+    color: var(--mainWhite);
+}
+
+.prevBtn:hover {
+    background: var(--lightBlue);
+}
+
+.nextBtn:hover {
+    background: var(--lightBlue);
+}
